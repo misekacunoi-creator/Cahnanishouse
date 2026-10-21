@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#dce7e9">
+  <meta name="description" content="cahnani's house — um pequeno lugar entre a internet e a vida real.">
+  <title>cahnani's house ✧</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <div class="site-shell">
+    <header class="topline">
+      <span><i class="status-dot"></i> UM PEQUENO CANTO DA INTERNET</span>
+      <span id="clock">00:00:00</span>
+    </header>
+
+    <section class="hero panel">
+      <div class="hero-spark spark-a">✳</div><div class="hero-spark spark-b">✧</div>
+      <p class="eyebrow">PERSONAL WEBLOG · EST. SOMEDAY</p>
+      <h1>cahnani<span>'s</span><br><em>house</em><b class="title-star">✳</b></h1>
+      <p class="hero-description">um pequeno lugar entre a internet<br class="desktop-break"> e a vida real.</p>
+      <div class="hero-bottom">
+        <span class="pill"><span class="tiny-dot"></span> você chegou. fica à vontade.</span>
+        <span class="mono tiny">ONLINE, MAIS OU MENOS</span>
+      </div>
+    </section>
+
+    <section class="radio panel" id="radio">
+      <div class="section-heading">
+        <div><p class="eyebrow">TRANSMISSÃO Nº 001</p><h2>rádio da casa <span class="music-note">♫</span></h2></div>
+        <span class="live-chip"><span class="status-dot"></span> ON AIR</span>
+      </div>
+      <div class="player">
+        <div class="album-art" id="albumArt" aria-label="Capa abstrata da rádio">
+          <span class="art-orbit orbit-one"></span><span class="art-orbit orbit-two"></span><span class="art-disc"></span><span class="art-star">✳</span>
+          <span class="art-label">SIDE A<br>SUMMER, SOMEWHERE</span>
+        </div>
+        <div class="track-info">
+          <p class="eyebrow">TOCANDO NA CASA</p>
+          <h3 id="trackTitle">Blue in Green</h3>
+          <p id="trackArtist">Miles Davis · jazz para ficar um pouco</p>
+          <div class="progress-wrap">
+            <div class="progress-line"><span id="progress"></span></div>
+            <div class="time-row"><span id="elapsed">00:00</span><span id="duration">--:--</span></div>
+          </div>
+          <div class="player-controls">
+            <button class="icon-button" id="prevTrack" aria-label="Faixa anterior">↶</button>
+            <button class="play-button" id="playTrack" aria-label="Reproduzir música">▶</button>
+            <button class="icon-button" id="nextTrack" aria-label="Próxima faixa">↷</button>
+            <button class="icon-button volume-button" id="muteTrack" aria-label="Silenciar">♫</button>
+          </div>
+          <p class="player-hint" id="playerHint">Aperte play. Se a faixa de exemplo não carregar, escolha outra fonte no arquivo README.</p>
+        </div>
+      </div>
+      <div class="station-row">
+        <button class="station active" data-station="summer"><span>☼</span><b>virtual summer</b><small>brisa & céu azul</small></button>
+        <button class="station" data-station="jazz"><span>♬</span><b>blue hour</b><small>jazz & madrugada</small></button>
+        <button class="station" data-station="guitars"><span>✳</span><b>guitarras</b><small>rock & ruído bom</small></button>
+        <button class="station" data-station="shuffle"><span>⌁</span><b>sem critério</b><small>deixa tocar</small></button>
+      </div>
+      <p class="tiny-note">♪ As faixas são exemplos de demonstração. Troque os títulos e links no arquivo <code>script.js</code> pelas músicas que você quiser usar.</p>
+    </section>
+
+    <section class="welcome-grid">
+      <article class="note-card panel">
+        <div class="card-top"><span class="mini-icon">✎</span><span class="eyebrow">NOTA DE BOAS-VINDAS</span></div>
+        <h2>oi, pessoa da internet.</h2>
+        <p>isso aqui é meu cantinho: um pouco de música, um pouco de cinema, fotografias que tirei, desenhos, pensamentos e coisas que eu simplesmente quis guardar.</p>
+        <p>não precisa ter sentido em ordem. pode explorar sem rumo. ♡</p>
+        <span class="signature">— cah</span>
+      </article>
+      <article class="weather-card panel">
+        <span class="eyebrow">CLIMA INTERNO</span>
+        <div class="weather-sun">☼</div>
+        <h2>verão em algum lugar</h2>
+        <p>26° de nostalgia<br>40% jazz · 60% pensamentos</p>
+        <span class="weather-caption">previsão totalmente emocional</span>
+      </article>
+    </section>
+
+    <section class="section-block" id="explore">
+      <div class="section-heading">
+        <div><p class="eyebrow">PASTAS ABERTAS</p><h2>passeia pela casa</h2></div>
+        <span class="tiny mono">01 — 04</span>
+      </div>
+      <div class="room-grid">
+        <button class="room-card room-photo" data-target="photos"><span class="room-number">01 / REAL LIFE</span><span class="room-symbol">▧</span><span class="room-title">fotografias</span><span class="room-sub">pequenos pedaços do mundo</span><span class="room-arrow">↗</span></button>
+        <button class="room-card room-film" data-target="films"><span class="room-number">02 / MOVING IMAGES</span><span class="room-symbol">▣</span><span class="room-title">cinemateca</span><span class="room-sub">filmes, impressões & obsessões</span><span class="room-arrow">↗</span></button>
+        <button class="room-card room-draw" data-target="mural"><span class="room-number">03 / OPEN CANVAS</span><span class="room-symbol">✎</span><span class="room-title">mural da casa</span><span class="room-sub">desenha alguma coisa pra mim</span><span class="room-arrow">↗</span></button>
+        <button class="room-card room-notes" data-target="notes"><span class="room-number">04 / UNSENT THOUGHTS</span><span class="room-symbol">✳</span><span class="room-title">anotações</span><span class="room-sub">coisas que pensei e guardei</span><span class="room-arrow">↗</span></button>
+      </div>
+    </section>
+
+    <section class="section-block" id="photos">
+      <div class="section-heading"><div><p class="eyebrow">ARQUIVO VISUAL</p><h2>fotografias & fragmentos</h2></div><span class="tiny">o mundo em pequenos pedaços</span></div>
+      <div class="photo-grid">
+        <figure class="photo photo-blue"><div class="photo-sun"></div><div class="photo-horizon"></div><figcaption>01 — somewhere in summer</figcaption></figure>
+        <figure class="photo photo-red"><div class="photo-window"></div><div class="photo-light"></div><figcaption>02 — depois das oito</figcaption></figure>
+        <figure class="photo photo-green"><div class="photo-moon"></div><div class="photo-building"></div><figcaption>03 — cidade em silêncio</figcaption></figure>
+      </div>
+      <p class="section-caption">espaços provisórios para suas fotos. depois é só trocar as imagens no HTML pelas suas próprias fotografias.</p>
+    </section>
+
+    <section class="section-block" id="films">
+      <div class="section-heading"><div><p class="eyebrow">SESSÃO PARTICULAR</p><h2>filmes que ficaram comigo</h2></div><span class="tiny">sem nota obrigatória</span></div>
+      <article class="film-feature panel">
+        <div class="film-cover"><span>FALLEN<br>ANGELS</span><small>墮落天使 · 1995</small></div>
+        <div class="film-copy"><span class="pill burgundy-pill">RECOMENDAÇÃO Nº 001</span><h3>Fallen Angels</h3><p class="film-meta">Wong Kar-wai · 1995 · Hong Kong</p><p>uma cidade que nunca dorme, gente que quase se encontra e a sensação de estar perto de alguém sem saber como chegar até essa pessoa.</p><p class="personal-note">“para ver de madrugada, quando a cidade parece pertencer a outra versão de você.”</p><button class="text-link" id="filmMore">ler minhas impressões ↗</button></div>
+      </article>
+      <div class="extra-film-note hidden" id="filmNote"><p>✳ <b>nota da casa:</b> este é um cartão de exemplo. troque a resenha por suas próprias impressões quando quiser. você pode adicionar mais filmes copiando o bloco no HTML.</p></div>
+    </section>
+
+    <section class="section-block" id="notes">
+      <div class="section-heading"><div><p class="eyebrow">RASCUNHOS SOLTOS</p><h2>coisas que passaram pela cabeça</h2></div><span class="tiny">não precisa fazer sentido</span></div>
+      <div class="thought-list">
+        <article class="thought panel"><span class="thought-date">NOTA 001 · 23:48</span><p>às vezes queria que a internet ainda parecesse um lugar que a gente descobria por acaso.</p><span class="thought-tag">#internetnostalgia</span></article>
+        <article class="thought panel"><span class="thought-date">NOTA 002 · SEM DATA</span><p>uma música pode transformar um lugar comum em uma cena de filme que nunca existiu.</p><span class="thought-tag">#música #cinema</span></article>
+        <article class="thought panel"><span class="thought-date">NOTA 003 · ARQUIVO ABERTO</span><p>guardar coisas pequenas também é um jeito de dizer: eu estive aqui.</p><span class="thought-tag">#fragmentos</span></article>
+      </div>
+      <p class="section-caption">textos de demonstração — substitua pelos seus quando estiver pronta.</p>
+    </section>
+
+    <section class="section-block" id="mural">
+      <div class="section-heading"><div><p class="eyebrow">VOCÊ TAMBÉM FAZ PARTE</p><h2>mural da casa <span class="music-note">✎</span></h2></div><span class="tiny">uma parede aberta</span></div>
+      <div class="mural-intro panel"><p>não precisa desenhar bem. deixa uma estrelinha, um gato, um rabisco sem sentido. se você apertar “colocar no mural”, seu desenho fica pronto para ser enviado pra casa.</p><span class="mono tiny">CANVAS Nº 001 · OPEN TO EVERYONE</span></div>
+      <div class="draw-panel panel">
+        <div class="draw-toolbar">
+          <label class="color-control">cor <input type="color" id="brushColor" value="#702f43" aria-label="Cor do pincel"></label>
+          <label class="size-control">traço <input type="range" id="brushSize" min="1" max="18" value="4" aria-label="Espessura do pincel"></label>
+          <button class="tool-button" id="eraser">borracha</button>
+          <button class="tool-button" id="undo">↶ desfazer</button>
+          <button class="tool-button" id="clearCanvas">limpar</button>
+        </div>
+        <div class="canvas-wrap"><canvas id="drawingCanvas" aria-label="Área para desenhar"></canvas><span class="canvas-watermark">cahnani's house · guestbook</span></div>
+        <div class="draw-bottom">
+          <input id="artistName" maxlength="24" placeholder="apelido (opcional)" aria-label="Apelido opcional">
+          <input id="drawingCaption" maxlength="100" placeholder="uma legenda pequena..." aria-label="Legenda opcional">
+          <button class="primary-button" id="submitDrawing">colocar no mural ↗</button>
+        </div>
+        <p class="tiny-note">Ao enviar, você confirma que o desenho pode ser exibido publicamente após aprovação. Não inclua informações pessoais.</p>
+        <p class="form-message" id="formMessage" role="status"></p>
+      </div>
+      <div class="mural-gallery" id="muralGallery"><div class="empty-mural"><span>✳</span><p>o mural está esperando seu primeiro rabisco.</p><small>seu desenho aparecerá aqui depois de aprovado pela dona da casa.</small></div></div>
+    </section>
+
+    <section class="section-block surprise-section">
+      <div class="surprise-panel panel">
+        <div><p class="eyebrow">SINAL ENCONTRADO</p><h2>não sabe por onde ir?</h2><p>deixa a casa escolher alguma coisa por você.</p></div>
+        <button class="primary-button" id="surpriseButton">me surpreenda ✳</button>
+        <div class="surprise-result hidden" id="surpriseResult"></div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-star">✳</div>
+      <p class="footer-title">obrigada por passar por aqui.</p>
+      <p>feito com um pouco de saudade de uma internet que talvez nunca tenha existido.</p>
+      <div class="footer-links"><a href="#radio">rádio</a><span>✧</span><a href="#explore">explorar</a><span>✧</span><a href="#mural">deixar um rabisco</a></div>
+      <p class="copyright">© CAHNANI'S HOUSE · UM ARQUIVO EM CONSTRUÇÃO</p>
+      <button id="secretButton" class="secret-button" aria-label="Pequeno segredo">404</button>
+      <p id="secretMessage" class="secret-message hidden">erro 404: você procurou uma saída e encontrou mais uma porta. <a href="#top" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;">voltar pra casa ↗</a></p>
+    </footer>
+  </div>
+
+  <nav class="mobile-nav" aria-label="Navegação principal">
+    <a href="#top"><span>⌂</span>início</a><a href="#radio"><span>♫</span>rádio</a><a href="#explore"><span>▦</span>arquivo</a><a href="#mural"><span>✎</span>mural</a>
+  </nav>
+
+  <audio id="audioPlayer" preload="none"></audio>
+  <div class="toast" id="toast" role="status"></div>
+  <script src="script.js"></script>
+</body>
+</html>
